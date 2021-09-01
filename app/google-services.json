@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619460653404",
+    "project_id": "haus-konnect",
+    "storage_bucket": "haus-konnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619460653404:android:96ea67e99ad34a77eb5199",
+        "android_client_info": {
+          "package_name": "com.example.hauskonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619460653404-ptpqkd6n6vp8b2gguh9a8j10tu3qgjc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz3T36vvCmd0A_YXbVI1DGP6R6JViAiBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619460653404-ptpqkd6n6vp8b2gguh9a8j10tu3qgjc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
