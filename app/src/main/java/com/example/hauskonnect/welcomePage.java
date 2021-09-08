@@ -57,11 +57,12 @@ public class welcomePage extends AppCompatActivity {
                     public void onClick(View v) {
                         assert type != null;
                         if(type.equals(faculty)){
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), FacultySide.class));
                             pbar3.setVisibility(View.VISIBLE);
                         }
                         else if (type.equals(Student)){
-                            Toast.makeText(welcomePage.this, "You dont have rights bruh", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            pbar3.setVisibility(View.VISIBLE);
                         }
 
                     }

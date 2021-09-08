@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic1"/>
+        <item
+
+            android:id="@+id/nav_timetable"
+            android:title="Time-Table"
+            android:icon="@drawable/ic_timetable"/>
+        <item
+
+            android:id="@+id/nav_result"
+            android:title="Result"
+            android:icon="@drawable/ic_result"/>
+        <item
+
+            android:id="@+id/nav_notes"
+            android:title="Notes"
+            android:icon="@drawable/ic_note"/>
+        <item
+
+            android:id="@+id/nav_faq"
+            android:title="F.A.Qs"
+            android:icon="@drawable/ic_faq"/>
+        <item
+
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+
+
+    </group>
+
+    <item android:title="profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_profile"/>
+                <item
+
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HAUSKonnect">
+        <activity android:name=".FacultySide"></activity>
+        <activity android:name=".About" />
         <activity android:name=".LaucherScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
