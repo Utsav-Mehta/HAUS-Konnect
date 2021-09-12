@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/fac_home"
+            android:title="Home"
+            android:icon="@drawable/ic1"/>
+        <item
+
+            android:id="@+id/schedule"
+            android:title="Schedule lecture"
+            android:icon="@drawable/ttwc"/>
+        <item
+
+            android:id="@+id/exam"
+            android:title="Schedule exam"
+            android:icon="@drawable/ic_baseline_access_time_filled_24"/>
+        <item
+
+            android:id="@+id/announce"
+            android:title="Announcement"
+            android:icon="@drawable/notice"/>
+
+        <item
+
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/fac_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_profile"/>
+                <item
+                    android:id="@+id/fac_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

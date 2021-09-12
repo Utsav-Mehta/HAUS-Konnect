@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/HAUSKonnect2/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/HAUSKonnect2/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/HAUSKonnect2/app/src/main/res/layout/activity_faculty_side.xml" value="0.16666666666666666" />
+        <entry key="..\:/HAUSKonnect2/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/HAUSKonnect2/app/src/main/res/layout/activity_sign_up.xml" value="0.16666666666666666" />
+        <entry key="..\:/HAUSKonnect2/app/src/main/res/menu/faculty_menu.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>
