@@ -14,11 +14,29 @@ import android.widget.LinearLayout;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
+/**
+ * The type Faculty side.
+ */
 public class FacultySide extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    /**
+     * The Drawer layout 1.
+     */
     DrawerLayout drawerLayout1;
+    /**
+     * The Navigation view 1.
+     */
     NavigationView navigationView1;
+    /**
+     * The Menu.
+     */
     ImageView menu;
+    /**
+     * The Content view 1.
+     */
     LinearLayout contentView1;
+    /**
+     * The Fauth.
+     */
     FirebaseAuth fauth;
 
     @Override

@@ -31,13 +31,43 @@ import java.util.Objects;
 
 import static android.content.ContentValues.TAG;
 
+/**
+ * The type Sign up.
+ */
 public class SignUp extends AppCompatActivity {
-    EditText username,email,password;
+    /**
+     * The Username.
+     */
+    EditText username, /**
+     * The Email.
+     */
+    email, /**
+     * The Password.
+     */
+    password;
+    /**
+     * The Signupbtn.
+     */
     Button signupbtn;
+    /**
+     * The Logintext.
+     */
     TextView logintext;
+    /**
+     * The F auth.
+     */
     FirebaseAuth fAuth;
+    /**
+     * The F store.
+     */
     FirebaseFirestore fStore;
+    /**
+     * The Pbar.
+     */
     ProgressBar pbar;
+    /**
+     * The User id.
+     */
     String userID;
 
     @Override

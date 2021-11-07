@@ -11,9 +11,24 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * The type Laucher screen.
+ */
 public class LaucherScreen extends AppCompatActivity {
-    Animation topAnim,bottomAnim;
+    /**
+     * The Top anim.
+     */
+    Animation topAnim, /**
+     * The Bottom anim.
+     */
+    bottomAnim;
+    /**
+     * The Img.
+     */
     ImageView img;
+    /**
+     * The Tl.
+     */
     TextView tl;
     private static int SPLASH_VARIABLE=4000;
 

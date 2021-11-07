@@ -16,11 +16,29 @@ import android.widget.LinearLayout;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    /**
+     * The Drawer layout.
+     */
     DrawerLayout drawerLayout;
+    /**
+     * The Navigation view.
+     */
     NavigationView navigationView;
+    /**
+     * The Menu icon.
+     */
     ImageView menuIcon;
+    /**
+     * The Content view.
+     */
     LinearLayout contentView;
+    /**
+     * The Fauth.
+     */
     FirebaseAuth fauth;
 
     @Override
@@ -112,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
     public void onBackPressed() {
-        if (drawerLayout.isDrawerVisible(GravityCompat.START)) {
+        if(drawerLayout.isDrawerVisible(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
         } else
             super.onBackPressed();
